@@ -1,0 +1,1184 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+del {
+  text-decoration: line-through;
+}
+body {
+  font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #000;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-weight: 500;
+}
+input,
+textarea,
+select {
+  font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+a {
+  color: #000;
+}
+.thumb {
+  display: block;
+}
+.thumb img {
+  display: block;
+  width: 100%;
+}
+p {
+  line-height: 1.6em;
+  font-size: 16px;
+  font-family: "GT-Eesti", Arial;
+  font-weight: 500;
+  color: #000;
+}
+.hidden {
+  display: none;
+}
+br.clear {
+  clear: both;
+  line-height: 0;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+@font-face {
+  font-family: "GT-Eesti";
+  src: url("../fonts/GT-Eesti-Pro-Text-Light.woff2") format("woff2");
+  src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"),
+    url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT-Eesti";
+  src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff2") format("woff2");
+  src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"),
+    url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT-Eesti";
+  src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff2") format("woff2");
+  src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"),
+    url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GT-Eesti";
+  src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff2") format("woff2");
+  src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"),
+    url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+::placeholder {
+  color: #9b9b9b;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #9b9b9b;
+}
+
+::-ms-input-placeholder {
+  color: #9b9b9b;
+}
+.btn {
+  padding: 10px 20px;
+  color: ;
+}
+/* Start Header Section */
+#header {
+  height: 100px;
+  padding: 20px 0;
+}
+#header section.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header h1.left {
+  width: 150px;
+}
+#header h1.left a {
+  width: 100%;
+  display: block;
+}
+#header h1.left a img {
+  width: 100%;
+  display: block;
+}
+#header ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+#header nav.middle {
+}
+#header nav.middle ul {
+}
+#header nav.middle ul li {
+}
+#header nav.middle ul li a {
+}
+#header nav.right {
+}
+#header nav.right ul {
+}
+#header nav.right ul li {
+}
+#header nav.right ul li a.button {
+  color: #ff794b;
+  background-color: #ffe4da;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+/* End Header section */
+/* Start Spotlight Section */
+#spotlight {
+  margin-top: 80px;
+}
+#spotlight section.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+#spotlight section.content {
+  width: 48%;
+}
+#spotlight section.content h1 {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#spotlight section.content p {
+  width: 90%;
+  margin-bottom: 20px;
+}
+#spotlight section.content form {
+  border: 1px solid #000;
+  width: 80%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+#spotlight section.content input[type="email"] {
+  font-size: 18px;
+  width: 70%;
+  padding-left: 10px;
+}
+#spotlight section.content input[type="submit"] {
+  width: 30%;
+  background-color: #0056fb;
+  padding: 15px;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+}
+#spotlight section.image {
+  width: 48%;
+}
+#spotlight section.image img {
+  width: 100%;
+}
+/* End Spotlight Section */
+/* Start Creator Section */
+#creator {
+  margin-top: 40px;
+  text-align: center;
+}
+#creator h5 {
+}
+#creator ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+#creator ul li {
+}
+#creator ul li a {
+}
+#creator ul li a img {
+}
+/* End Creator Section */
+/* Start Content Section */
+#content {
+  margin-top: 60px;
+}
+#content section.features .bg {
+  background-color: #f8f8f8;
+}
+#content section.features {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px;
+}
+
+#content section.features div.left {
+  width: 48%;
+}
+#content section.features div.left img {
+  width: 100%;
+}
+#content section.features div.right {
+  width: 40%;
+}
+#content section.features div.right div.top {
+}
+#content section.features div.right div.top i.bg1 {
+  background-color: #ff794b;
+  color: #fff;
+  border-radius: 10px;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+#content section.features div.right div.top i.bg2 {
+  background-color: #ffc836;
+  color: #fff;
+  border-radius: 10px;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+#content section.features div.right div.top i.bg3 {
+  background-color: #3dd278;
+  color: #fff;
+  border-radius: 10px;
+  padding: 8px;
+  margin-bottom: 30px;
+}
+#content section.features div.right div.top h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#content section.features div.right div.top p {
+  font-size: 16px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+#content section.features div.right div.top a.button {
+  background-color: #0056fb;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+#content section.features div.right div.top hr {
+  border: 1px dotted #d3cdcd;
+  width: 180px;
+  margin-bottom: 30px;
+}
+#content section.features div.right div.review blockquote {
+  font-size: 14px;
+  color: #777777;
+  margin-bottom: 20px;
+}
+#content section.features div.right div.review span {
+  font-size: 18px;
+  font-weight: 700;
+  color: #777777;
+  margin-bottom: 20px;
+  display: block;
+}
+#content section.features div.right div.review sapn small {
+  color: #777777;
+}
+#content section.features div.right div.review img {
+}
+/* End Content Section */
+/* Start Review Section */
+#review {
+  margin-top: 40px;
+}
+#review section.top {
+}
+#review section.top h3 {
+  width: 300px;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+#review section.bottom {
+}
+#review section.bottom ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+#review section.bottom ul li {
+  width: 32%;
+}
+#review section.bottom ul li div.top {
+  position: relative;
+}
+#review section.bottom ul li div.top img.bg {
+  width: 100%;
+  border-radius: 8px;
+}
+
+#review section.bottom ul li div.top i {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+#review section.bottom ul li div.top div.logo {
+  width: 100px;
+  height: 35px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#review section.bottom ul li div.top img.brand {
+}
+#review section.bottom ul li h4 {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+/* End Review Section */
+/* Start About Section */
+#about {
+  margin: 80px 0px;
+}
+#about ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#about ul li {
+  width: 47%;
+}
+#about ul li div.top {
+  position: relative;
+}
+#about ul li div.top img.bg {
+  width: 100%;
+}
+#about ul li div.top div.logo {
+  width: 120px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+#about ul li div.top div.logo img {
+  width: 50px;
+}
+#about ul li div.bottom {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#about ul li div.bottom blockquote {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+#about ul li div.bottom h6 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+#about ul li div.bottom span {
+  color: #777777;
+  margin-bottom: 5px;
+}
+
+#about ul li div.bottom small {
+  font-weight: 500;
+}
+/* End About Section */
+
+/* Start Features Section */
+#features {
+  background-color: #f8f8f8;
+  padding: 60px 0px;
+}
+#features section.top {
+}
+#features section.top h3 {
+  width: 400px;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 auto;
+}
+#features section.content {
+  margin-top: 60px;
+}
+#features section.content ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#features section.content ul li {
+  width: 33.3%;
+  padding: 50px;
+}
+#features section.content ul li:nth-child(2),
+#features section.content ul li:nth-child(5) {
+  border-right: 1px dotted #777777;
+  border-left: 1px dotted #777777;
+}
+
+#features section.content ul li a {
+}
+#features section.content ul li a img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#features section.content ul li h3 {
+  margin-bottom: 10px;
+}
+#features section.content ul li h3 a {
+}
+#features section.content ul li p {
+}
+#features section.bottom {
+  width: 500px;
+  background-color: #d0dfff;
+  margin: 0 auto;
+}
+#features section.bottom section.content {
+  padding: 30px;
+  position: relative;
+}
+#features section.bottom section.content span.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -30px;
+  left: 30px;
+}
+#features section.bottom section.content span.icon img {
+  padding: 1px;
+}
+#features section.bottom section.content div.element {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#features section.bottom section.content div.element p {
+  font-size: 14px;
+  width: 60%;
+}
+#features section.bottom section.content div.element a.button {
+  /* width: 35%; */
+  color: #fff;
+  padding: 10px 15px;
+  background-color: #0056fb;
+  border-radius: 8px;
+}
+/* End Features Section */
+/* Start Product Section */
+#production {
+  margin: 40px 0px;
+}
+#production section.top {
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+#production section.top h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+#production section.bottom {
+}
+#production section.bottom ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+#production section.bottom ul li {
+  width: 32%;
+  height: 600px;
+  padding: 40px 40px 0px 40px;
+  border-radius: 8px;
+  text-align: center;
+}
+#production section.bottom ul li.one {
+  background-color: #d0dfff;
+}
+#production section.bottom ul li.two {
+  background-color: #fef4d7;
+}
+#production section.bottom ul li.three {
+  background-color: #ffe4da;
+}
+#production section.bottom ul li div.logo {
+  background-color: #fff;
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+#production section.bottom ul li div.logo img {
+  width: 40px;
+}
+#production section.bottom ul li h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+#production section.bottom ul li p {
+  margin-bottom: 30px;
+}
+#production section.bottom ul li a.button {
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+#production section.bottom ul li.one a.button {
+  background-color: #0056fb;
+}
+#production section.bottom ul li.two a.button {
+  background-color: #ffc836;
+}
+#production section.bottom ul li.three a.button {
+  background-color: #ff794b;
+}
+#production section.bottom ul li img {
+  width: 100%;
+}
+/* End Product Section */
+
+/* Start Blog Section */
+#blog {
+  margin: 120px 0px 60px;
+}
+#blog section.top {
+}
+#blog section.top h3 {
+  padding-top: 30px;
+  font-size: 38px;
+  font-weight: 700;
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+#blog section.bottom ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#blog section.bottom ul li {
+  width: 32%;
+  border-radius: 8px;
+}
+#blog section.bottom ul li img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#blog section.bottom ul li span.label {
+  font-size: 14px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+#blog section.bottom ul li span.label.active {
+  color: #0056fb;
+}
+#blog section.bottom ul li h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+#blog section.bottom ul li a {
+  font-size: 16px;
+  text-decoration: underline;
+  font-weight: 500;
+}
+#blog section.bottom div.button {
+  text-align: center;
+  margin-top: 30px;
+}
+#blog section.bottom a.button {
+  background-color: #0056fb;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 20px;
+  margin: 0 auto;
+}
+/* End Blog Section */
+
+/* Start Contact Section */
+#contact {
+  background-color: #000;
+  color: #fff;
+  /* margin-top: 30px; */
+  padding: 40px 0px;
+  text-align: center;
+}
+#contact .wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+#contact section.left {
+  width: 48%;
+  text-align: left;
+}
+#contact section.left h3 {
+  font-size: 32px;
+  font-weight: 700;
+  width: 200px;
+  margin-bottom: 10px;
+}
+#contact section.left p {
+  color: #9b9b9b;
+  font-size: 14px;
+  width: 70%;
+  margin-bottom: 20px;
+}
+#contact section.left hr {
+  width: 30%;
+  height: 2px;
+  border: 1px dotted #9b9b9b;
+  margin-bottom: 20px;
+}
+#contact section.left div.testimonials {
+}
+
+#contact section.left div.testimonials h3 {
+  width: 100%;
+  font-size: 16px;
+}
+#contact section.left div.testimonials div.content {
+}
+#contact section.left div.testimonials div.content blockquote {
+  width: 80%;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+#contact section.left div.testimonials div.content h6 {
+  font-family: 700;
+  margin-bottom: 5px;
+}
+#contact section.left div.testimonials div.content span.role {
+  font-size: 16px;
+  color: #9b9b9b;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+#contact section.left div.testimonials ul {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#contact section.left div.testimonials ul li {
+}
+
+#contact section.left div.testimonials ul li img {
+  border-radius: 50%;
+}
+#contact section.left div.testimonials ul li img.active {
+  border: 1px solid #ff794b;
+  border-radius: 100%;
+  padding: 5px;
+}
+#contact section.left div.companies {
+}
+#contact section.left div.companies ul {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+#contact section.left div.companies ul li {
+}
+#contact section.left div.companies ul li img {
+}
+#contact section.right {
+  width: 48%;
+  background-color: #fff;
+  padding: 40px 30px;
+  margin: 0 auto;
+}
+#contact section.right h4 {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+#contact section.right form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#contact section.right form div {
+  width: 100%;
+  margin-bottom: 15px;
+}
+#contact section.right form div input[type="text"] {
+  width: 48%;
+  padding: 10px 10px;
+  border: 1px solid #dcdcdc;
+  color: #dcdcdc;
+  border-radius: 8px;
+}
+#contact section.right form div input[type="email"] {
+  width: 48%;
+  padding: 10px 10px;
+  border: 1px solid #dcdcdc;
+  color: #dcdcdc;
+  border-radius: 8px;
+}
+#contact section.right form div select {
+  width: 48%;
+  padding: 10px 10px;
+  border: 1px solid #dcdcdc;
+  color: #dcdcdc;
+  border-radius: 8px;
+}
+#contact section.right form div select option {
+}
+#contact section.right form div input[type="checkbox"] {
+  margin-right: 5px;
+}
+#contact section.right form div label {
+  color: #000;
+  text-align: left;
+}
+#contact section.right form div input[type="submit"] {
+  width: 100%;
+  background-color: #0056fb;
+  padding: 15px;
+  color: #fff;
+  border-radius: 8px;
+}
+
+/* End Contact Section */
+
+/* Start Footer Section */
+#footer {
+  margin: 30px 0px;
+}
+#footer .footer__top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#footer .footer__top .footer__top--list {
+  width: 17%;
+}
+#footer .footer__top .footer__top--list .media {
+  width: 27%;
+}
+#footer .footer__top .footer__top--list ul.social {
+  display: flex;
+  gap: 10px;
+}
+#footer .footer__top .footer__top--list p {
+  margin-bottom: 20px;
+}
+#footer .footer__top .footer__top--list ul {
+}
+
+#footer .footer__top .footer__top--list ul li {
+  margin-bottom: 5px;
+}
+#footer .footer__top .footer__top--list ul li i {
+  background-color: #eee9e9;
+  padding: 5px;
+  border-radius: 50%;
+}
+#footer .footer__top .footer__top--list ul li h4 {
+}
+#footer .footer__top .footer__top--list ul li a {
+}
+#footer .footer__top .footer__top--list ul li a img {
+}
+/* End Footer Section */
+
+/* Media Queries */
+@media all and (max-width: 980px) {
+  #header nav.middle ul {
+    display: none;
+  }
+  #spotlight {
+    margin-top: 40px;
+  }
+  h1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  #spotlight section.content p {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  #spotlight section.content form {
+    width: 90%;
+  }
+
+  #spotlight section.content input[type="submit"] {
+    padding: 10px;
+  }
+  #content section.features div.right {
+    width: 50%;
+  }
+  #content section.features div.right div.top i.bg1 {
+    margin-bottom: 10px;
+  }
+  #content section.features div.right div.top h3 {
+    margin-bottom: 10px;
+  }
+  #content section.features div.right div.top p {
+    margin-bottom: 10px;
+  }
+  #content section.features div.right div.top a.button {
+    margin-bottom: 20px;
+  }
+  #content section.features div.right div.top hr {
+    margin-bottom: 20px;
+  }
+  #content section.features div.right div.review blockquote {
+    margin-bottom: 10px;
+  }
+  #content section.features div.right div.review span {
+    margin-bottom: 10px;
+  }
+  #content {
+    margin-top: 30px;
+  }
+  #content section.features {
+    margin-bottom: 0px;
+  }
+  #review {
+    margin-top: 20px;
+  }
+  #about {
+    margin: 40px 0px;
+  }
+  #features section.content ul li {
+    padding: 20px;
+  }
+  #features {
+    padding: 40px 0px;
+  }
+  #blog section.top h3 {
+    font-size: 28px;
+  }
+  #contact section.left div.companies ul {
+    gap: 10px;
+  }
+  #contact section.right form div {
+    margin-bottom: 0px;
+  }
+  #contact section.right form div input[type="email"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #contact section.right form div input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+@media all and (max-width: 780px) {
+  #spotlight section.wrapper {
+    flex-direction: column;
+  }
+  #spotlight section.image {
+    width: 80%;
+    order: 1;
+
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  #spotlight section.content {
+    order: 2;
+    width: 100%;
+    text-align: center;
+  }
+  #spotlight section.content h1 {
+    font-size: 30px;
+  }
+  #spotlight section.content p {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  #spotlight section.content form {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #creator ul {
+    gap: 25px;
+  }
+  #content section.features {
+    flex-direction: column;
+  }
+  #content section.features div.left {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #content section.features div.right {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #review section.top h3 {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  #review section.bottom ul li {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+  #review section.bottom ul li:last-child {
+    margin-bottom: none;
+  }
+  #features section.content ul li {
+    width: 48%;
+  }
+  #features section.content ul li:nth-child(2),
+  #features section.content ul li:nth-child(5) {
+    border: none;
+  }
+  #features section.content ul li:nth-child(1),
+  #features section.content ul li:nth-child(3),
+  #features section.content ul li:nth-child(5) {
+    border-right: 1px dotted #777777;
+  }
+  #production section.bottom ul li {
+    width: 95%;
+    margin-bottom: 110px;
+  }
+  #production section.bottom ul li:last-child {
+    margin-bottom: none;
+  }
+  #production section.bottom ul li img {
+    width: 75%;
+  }
+  #blog {
+    margin: 0px 0px 45px;
+  }
+  #blog section.bottom ul li {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+  #blog section.bottom ul li:last-child {
+    margin-bottom: none;
+  }
+  #contact .wrapper {
+    flex-direction: column;
+  }
+  #contact section.left {
+    width: 100%;
+  }
+  #contact section.left h3 {
+    width: 100%;
+  }
+  #contact section.left p {
+    width: 100%;
+  }
+  #contact section.left div.testimonials div.content blockquote {
+    width: 100%;
+  }
+  #contact section.right {
+    width: 100%;
+  }
+  #contact section.right form div select {
+    width: 49%;
+  }
+  #footer .footer__top .footer__top--list {
+    width: 30%;
+  }
+  #footer .footer__top .footer__top--list {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+}
+@media all and (max-width: 640px) {
+  #header nav.right ul li a.button {
+    padding: 8px 12px;
+    border-radius: 8px;
+  }
+  #review section.bottom ul li {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #about ul li {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  #about ul li:last-child {
+    margin-bottom: none;
+  }
+  #features section.content ul li {
+    width: 90%;
+    margin: 0 auto;
+  }
+  #features section.content ul li:nth-child(1),
+  #features section.content ul li:nth-child(2),
+  #features section.content ul li:nth-child(3),
+  #features section.content ul li:nth-child(4),
+  #features section.content ul li:nth-child(5),
+  #features section.content ul li:nth-child(6) {
+    border-right: none;
+  }
+  #features section.content ul li:nth-child(1),
+  #features section.content ul li:nth-child(2),
+  #features section.content ul li:nth-child(3),
+  #features section.content ul li:nth-child(4),
+  #features section.content ul li:nth-child(5) {
+    border-bottom: 1px dotted #777777;
+  }
+  #features section.content {
+    margin-top: 20px 0px 30px;
+  }
+  #features section.bottom {
+    width: 90%;
+  }
+  #features section.bottom section.content div.element {
+    flex-direction: column;
+  }
+  #features section.bottom section.content div.element p {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #features section.bottom section.content span.icon {
+    left: 43%;
+  }
+  #production section.top {
+    width: 100%;
+  }
+  #production section.top h3 {
+    font-size: 28px;
+    text-align: center;
+  }
+  #production section.bottom ul li {
+    margin: 0 auto;
+  }
+  #production section.bottom ul li {
+    height: 550px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+  #blog section.top h3 {
+    width: 100%;
+    text-align: center;
+    padding-top: 0px;
+  }
+  #blog section.bottom ul li {
+    width: 95%;
+  }
+}
+@media all and (max-width: 480px) {
+  #header ul {
+    display: none;
+  }
+  #header h1.left {
+    margin: 0 auto;
+  }
+  #features section.top h3 {
+    width: 100%;
+    text-align: center;
+  }
+  #contact section.left div.companies ul {
+    flex-wrap: wrap;
+  }
+  #spotlight section.content form {
+    width: 100%;
+  }
+  #content section.features div.left {
+    width: 100%;
+  }
+  #content section.features div.left {
+    width: 100%;
+  }
+  #content section.features {
+    padding: 20px 0px;
+  }
+  #review section.bottom ul li {
+    margin-bottom: 10px;
+  }
+  #features {
+    padding: 10px 0px;
+  }
+  #contact section.right form div select {
+    width: 100%;
+  }
+  #contact section.right form div input[type="text"] {
+    margin-bottom: 10px;
+  }
+  #contact section.right form {
+    gap: 0px;
+  }
+  #contact section.right form div select {
+    margin-bottom: 10px;
+  }
+  #contact section.right form div input[type="submit"] {
+    margin-top: 10px;
+  }
+  #footer .footer__top .footer__top--list {
+    width: 48%;
+  }
+}
